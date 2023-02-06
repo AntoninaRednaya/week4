@@ -1,0 +1,192 @@
+.wrapper {
+    width: 1440px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.promo {
+    height: 21px;
+    padding: 14px 551px;
+    font-size: 14px;
+    color: #B88987;
+}
+
+h1::before {
+    content: "✿";
+    padding-right: 5px;
+    color: black;
+}
+
+h1::after {
+    content: "✿";
+    padding-left: 5px;
+    color: black;
+}
+
+h1:hover {
+    color: rosybrown;
+}
+
+h1:active {
+    color: red;
+}
+
+header {
+    display: flex;
+    height: 92px;
+    background-color: #E6E1D6;
+}
+
+.header_image {
+    width: 200px;
+    height: 42px;
+    background-image: url('/assests/images/Header_logo.png');
+    margin: auto 0 auto 620px;
+}
+
+.header_search {
+    height: 48px;
+    width: 274px;
+    background-color: white;
+    border: solid 2px black;
+    border-right: none;
+    margin: 20px 0 0 138px;
+}
+
+.header_search_decoration {
+    height: 48px;
+    width: 90px;
+    margin: auto 0 auto 0;
+    border: solid 2px black;
+    border-left: none;
+}
+
+.header_search_decoration_img {
+    height: 23px;
+    width: 23px;
+    background-image: url(/assests/images/Vector.png);
+    margin: 13px 0 0 45px;
+}
+
+#header_basket {
+    height: 19px;
+    width: 22px;
+    background-image: url(/assests/images/Header_basket.png);
+    margin: 36px 0 0 65px;
+}
+
+.section1 {
+    height: 72px;
+    background-image: url(/assests/images/Block1.png);
+    padding-top: 672px;
+
+}
+
+.section1_link {
+    padding: 11px 45px;
+    background-color: #E6E1D6;
+}
+
+
+.section2 {
+    height: 569px;
+    background-color: #E6E1D6;
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.section2_text {
+    width: 842px;
+    margin: auto;
+    padding-top: 44px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.section3 {
+    height: 1022px;
+    padding: 0 52px;
+}
+
+.section3_header {
+    padding: 80px 0 60px 0;
+    font-size: 19px;
+    text-align: center;
+    color: #B88987;
+}
+
+.section3_area {
+    /* background-color: honeydew; */
+    height: 919px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section3_area_item {
+    width: 428px;
+    height: 375px;
+    /* background-color: aqua; */
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6 {
+    background-repeat: no-repeat;
+    box-sizing:border-box;
+    padding-top: 305px;
+    text-align: center;
+}
+
+.item1 {
+    background-image: url(/assests/images/item1.png);
+}
+
+.item2 {
+    background-image: url(/assests/images/item2.png)
+}
+
+.item3 {
+    background-image: url(/assests/images/item3.png)
+}
+
+.item4, .item5, .item6 {
+    padding:0;
+}
+
+.img4, .img5, .img6 {
+    margin: auto;
+}
+
+.img4 {
+    width: 137px;
+    height: 253px;
+    background-image: url(/assests/images/item4.png);
+    margin-bottom:20px;
+}
+
+.img5 {
+    width: 216px;
+    height: 222px;
+    background-image: url(/assests/images/item5.png);
+    margin-bottom:50px;
+}
+
+.img6 {
+    width: 223px;
+    height: 203px;
+    background-image: url(/assests/images/item6.png);
+    margin-bottom: 70px;
+}
+
+a {
+    color: #B88987;
+    text-decoration: none;
+}
+
+a:visited {
+    color:black;
+}
+
